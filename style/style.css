@@ -1,0 +1,222 @@
+html{
+    
+}
+h4{
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(img/slad.jpg);
+    background-position: center center;
+    background-size: auto;
+    cursor: default;
+}
+a{
+    cursor: pointer;
+    color: gray;
+    text-decoration: none;
+}
+.hat{
+    padding: 7px 590px 7px 590px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0px 5px gray;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.hat a{
+    transition: 0.2s;
+}
+.selected{
+    color:darkred;
+    font-size: 105%;
+}
+.hat a:hover{
+    transform: scale(1.05);
+    color:darkred;
+}
+.hhru{
+    position: relative;
+    background: rgb(56, 34, 0);
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 35px;
+    box-shadow: 0 0 3px black;
+    top: 30px;
+    border-radius: 3px;
+}
+.hhru1{
+    position: absolute;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 575px;
+}
+.cont{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 240px 0 240px;
+}
+.poch1{
+    background: rgb(56, 34, 0);
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 0 3px black;
+}
+.poch2{
+    background: rgb(56, 34, 0);
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 0 3px black;
+}
+.poch3{
+    background: rgb(56, 34, 0);
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 0 3px black;
+}
+.me{
+    margin-left: 549px;
+    position: relative;
+    background: wheat;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 35px;
+    top: 30px;
+    border-radius: 5px 0 0 5px;
+}
+.me1{
+    position: absolute;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 270px;
+    padding-right: 210px;
+}
+.card{
+    background: white;
+    width: 200px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px grey;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.no{
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+    text-decoration: line-through;
+}
+.yes{
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.tel{
+    color: white;
+}
+.card_txt button{
+    background: red;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+	margin: auto;
+}
+.card_txt1 button{
+    background: red;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+	margin: auto;
+}
+.card_txt1{
+    margin-top: 200px;
+}
+.card_img img{
+    width: 100%;
+}
+.dal img{
+    width: 90%;
+}
+.footer{
+    margin-top: 40px;
+    background: black;
+    text-align: center;
+    height: 30px;
+    padding-top: 18px;
+}
+.footer a{
+    color: lightgrey;
+    padding: 0 5px 0 5px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.dal{
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    margin-top: 160px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.dal:hover{
+    background: rgb(192, 192, 192);
+}
+.dal img{
+
+}
+.bird{
+    background: white;
+    height: 720px;
+    width: 600px;
+    margin: 50px 383px 40px 383px;
+    border-radius: 4px;
+}
+.sag{
+    padding-left : 150px;
+    padding-top: 20px;
+}
+.ras{
+    padding: 20px 200px 0 200px;
+}
+.bird img{
+    width: 92%;
+    padding-left: 24px;
+}
